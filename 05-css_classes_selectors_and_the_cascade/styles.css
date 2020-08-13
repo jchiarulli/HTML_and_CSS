@@ -1,0 +1,87 @@
+/* p.error {
+  color: red;
+}
+
+p.success {
+  color: #1be71b;
+}
+
+p.success.feedback {
+  border: 1px dashed #1be71b;
+} */
+
+/* div#content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+
+/* #content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+
+/* descendent selector */
+/* div p {
+  color: purple;
+} */
+
+/* get any element in a div with the class of error */
+/* div .error {
+  color: red;
+} */
+
+/* get any div with a class of error */
+/* div.error {
+  color: red;
+} */
+
+/* gets any a tag with an href element */
+/* a[href] {
+  background-color: #19ee19;
+} */
+
+/* a[href="https://www.thenetninja.co.uk"]
+{
+  background-color: #19ee19;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* a[href*="thenetninja"] {
+  background-color: #19ee19;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* a[href*="google"] {
+  color: white;
+  background-color: red;
+  border: 2px solid blue;
+} */
+
+/* a[href$=".com"] {
+  color: white;
+  background-color: red;
+  border: 2px solid blue;
+} */
+
+div {
+  color: lightcoral;
+  border: 1px solid gray;
+  margin: 40px;
+  font-weight: bold;
+}
+
+div p {
+  border: inherit;
+  margin: inherit;
+  color: crimson;
+}
+
+p {
+  color: orange;
+}
